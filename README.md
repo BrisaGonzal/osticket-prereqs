@@ -219,36 +219,82 @@ edit permisions
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="blob:https://imgur.com/d26ac64d-6a69-4f5f-a406-0c53ad3f89fa" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Continue Setting up osTicket in the browser (click Continue)
+Name Helpdesk
+Default email (receives email from customers)
 </p>
 <br />
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0MXE6Fy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Download and install Heidi SQL.
+Create a new session by clicking the green "new" button on the bottom left, root/Password1
+Connect to the session
 </p>
 <br />
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kWnMgHD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Right click on "Unnamed" and create a database called “osTicket”
 </p>
 <br />
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qwLcscM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Continue Setting up osticket in the browser
+MySQL Database: osTicket
+MySQL Username: root
+MySQL Password: Password1
+Click “Install Now!”
 </p>
 <br />
+</p>
+<br />
+</p>
+<br />
+<p>
+<img src="https://i.imgur.com/qdtLhIA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Congratulations, hopefully it is installed with no errors!
+</p>
+<br />
+</p>
+<br />
+</p>
+<br />
+<p>
+<img src="https://i.imgur.com/DiBwyw7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Clena up: delete "setup" folder in C:\inetpub\wwwroot\osTicket\setup
+</p>
+<br />
+</p>
+<br />
+</p>
+<br />
+<p>
+<img src="https://i.imgur.com/XkztDLz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+</p>
+<br />
+</p>
+<br />
+</p>
+<br />
+<p>
