@@ -298,3 +298,28 @@ Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-conf
 </p>
 <br />
 <p>
+<img src="https://i.imgur.com/DiBwyw7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Clena up: delete "setup" folder in C:\inetpub\wwwroot\osTicket\setup
+</p>
+<br />
+</p>
+<br />
+</p>
+<br />
+<p>
+<img src="https://i.imgur.com/q4FRyuM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5VBaLoN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XUYFuYy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Browse to your help desk login page: http://localhost/osTicket/scp/login.php
+
+ End Users osTicket URL: http://localhost/osTicket/ 
+<br />
+</p>
+<br />
+</p>
+<br />
+<p>
