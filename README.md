@@ -130,6 +130,8 @@ Open IIS as an Admin.
 </p>
 <p>
 Register PHP from within IIS. Reload IIS (Open IIS, Stop and Start the server)
+ 
+ Double click PHP Manager > Register new PHP version > click " ... " to browse > This PC > Windows (C:) > PHP > php.cgi > OK
 </p>
 <br />
 </p>
