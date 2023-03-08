@@ -56,14 +56,14 @@ Right click Windows start menu>Run>type "control panel">Programs>Turn Windows fe
 <img src="https://i.imgur.com/5pWrqcY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-download and install PHPManager
+Open the Installation Files under "Environments and Technologies Used" header of this post. Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 </p>
 <br />
 <p>
 <img src="https://i.imgur.com/YhobHlJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-download and install rewrite
+From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
 </p>
 <br />
 <p>
