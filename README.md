@@ -47,6 +47,7 @@ Once that is created, log into the VM in remote desktop using the VM's public IP
 </p>
 <p>
 IIS (internet information services) is a web server that will allow your computer to serve up websites. Since OsTicket runs out of a website IIS needs to be set up and configured with CGI to run osTicket. CGI needs to be installed with IIS because CGI allows you to install PHPManager, which is a back-end web programming language that osTicket runs off of.
+ 
 Right click Windows start menu>Run>type "control panel">Programs>Turn Windows features on or off> Internet Information services>World Wide Web Services>Application Development Features>CGI
 </p>
 <br />
