@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This post outlines the steps to create and run an open source ticketing system. This section will demonstrate the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This repository outlines the steps to create and run an open source ticketing system. This section will demonstrate my knowledge on the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 <h2>Environments and Technologies Used</h2>
 
