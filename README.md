@@ -220,7 +220,9 @@ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 <img src="https://i.imgur.com/IjGrz0c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-disable inheritance
+Assign Permissions
+
+Right click ost-config,php > Properties > Security > Advanced > Disable inheritance > Remove all inherited permissions from this object > Add > Select a principle > type "everyone" > Check Names > OK > Full control > OK > Apply > OK > OK
 </p>
 <br />
 </p>
