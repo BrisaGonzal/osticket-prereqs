@@ -48,7 +48,7 @@ Once that is created, log into the VM in remote desktop using the VM's public IP
 <p>
 IIS (internet information services) is a web server that will allow your computer to serve up websites. Since OsTicket runs out of a website IIS needs to be set up and configured with CGI to run osTicket. CGI needs to be installed with IIS because CGI allows you to install PHPManager, which is a back-end web programming language that osTicket runs off of.
  
-Right click Windows start menu>Run>type "control panel">Programs>Turn Windows features on or off> Internet Information services>World Wide Web Services>Application Development Features>CGI
+Right click Windows start menu > Run > type "control panel" > Programs > Turn Windows features on or off > Internet Information services > World Wide Web Services > Application Development Features > CGI
 </p>
 <br />
 
@@ -72,7 +72,7 @@ From the Installation Files, download and install the Rewrite Module (rewrite_am
 <p>
 Create the directory C:\PHP
  
- Open the local drive>This PC>Windows (C:)>Right click>New>Folder>Name it "PHP"
+ Open the local drive > This PC > Windows (C:) > Right click > New > Folder > Name it "PHP"
 </p>
 <br />
 <p>
@@ -86,9 +86,9 @@ From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zi
 <img src="https://i.imgur.com/MMJD8Tm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- unzip the contents of PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into C:\PHP
+ Unzip the contents of PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into C:\PHP
  
- Right click PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip)>Extract All>Browse>This PC> Windows (C:)>PHP>Select Folder>Extract
+ Right click PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) > Extract All > Browse > This PC > Windows (C:) > PHP > Select Folder > Extract
 </p>
 <br />
 <p>
@@ -119,6 +119,8 @@ Password1
 </p>
 <p>
 Open IIS as an Admin.
+ 
+ Click on start > type "IIS" > right click > Run as administrator
 </p>
 <br />
 </p>
