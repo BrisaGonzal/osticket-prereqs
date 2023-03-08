@@ -222,13 +222,13 @@ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 <p>
 Assign Permissions
 
-Right click ost-config,php > Properties > Security > Advanced > Disable inheritance > Remove all inherited permissions from this object > Add > Select a principle > type "everyone" > Check Names > OK > Full control > OK > Apply > OK > OK
+Right click ost-config.php > Properties > Security > Advanced > Disable inheritance > Remove all inherited permissions from this object > Add > Select a principle > type "everyone" > Check Names > OK > Full control > OK > Apply > OK > OK
 </p>
 <br />
 </p>
 <br />
 <p>
-<img src="blob:https://imgur.com/d26ac64d-6a69-4f5f-a406-0c53ad3f89fa" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hlDC5fz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Continue Setting up osTicket in the browser (click Continue)
