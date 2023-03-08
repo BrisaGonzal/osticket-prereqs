@@ -71,6 +71,8 @@ From the Installation Files, download and install the Rewrite Module (rewrite_am
 </p>
 <p>
 Create the directory C:\PHP
+ 
+ Open the local drive>This PC>Windows (C:)>Right click>New>Folder>Name it "PHP"
 </p>
 <br />
 <p>
