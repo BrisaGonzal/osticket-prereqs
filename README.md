@@ -129,9 +129,11 @@ Open IIS as an Admin.
 <img src="https://i.imgur.com/E03KBEN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Register PHP from within IIS. Reload IIS (Open IIS, Stop and Start the server)
+Register PHP from within IIS.
  
  Double click PHP Manager > Register new PHP version > click " ... " to browse > This PC > Windows (C:) > PHP > php.cgi > OK
+ 
+ Reload IIS (Open IIS, Stop and Start the server)
 </p>
 <br />
 </p>
@@ -148,7 +150,13 @@ Register PHP from within IIS. Reload IIS (Open IIS, Stop and Start the server)
 <img src="https://i.imgur.com/yCYBEVv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Extract and copy “upload” folder to c:\inetpub\wwwroot. Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+Extract and copy “upload” folder to c:\inetpub\wwwroot. 
+ 
+Open downlods folder > osTicket-v1.15.8 > drag and drop "upload" folder into "wwwroot" folder. To find the wwwroot folder: This PC > Windows (C:) > inetpub > wwwroot
+ 
+ Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+ 
+ Reload IIS (Open IIS, Stop and Start the server)
 </p>
 <br />
 </p>
@@ -157,8 +165,8 @@ Extract and copy “upload” folder to c:\inetpub\wwwroot. Within c:\inetpub\ww
 <img src="https://i.imgur.com/ldWADHk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Go to sites -> Default -> osTicket
-On the right, click “Browse *:80”
+Within IIS, go to sites -> Default -> osTicket
+On the right, click “Browse *:80 (http)”
 </p>
 <br />
 </p>
