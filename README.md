@@ -79,21 +79,23 @@ Create the directory C:\PHP
 <img src="https://i.imgur.com/6MBfS3u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-download and install PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip)
+From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip)
 </p>
 <br />
 <p>
 <img src="https://i.imgur.com/MMJD8Tm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- unzip the contents into C:\PHP
+ unzip the contents of PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into C:\PHP
+ 
+ Right click PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip)>Extract All>Browse>This PC> Windows (C:)>PHP>Select Folder>Extract
 </p>
 <br />
 <p>
 <img src="https://i.imgur.com/Y69JWBX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-download and install VC_redist
+From the Installation Files, download and install VC_redist.x86.exe
 </p>
 <br />
 </p>
@@ -102,7 +104,12 @@ download and install VC_redist
 <img src="https://i.imgur.com/POE0XJN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-download and install MySQL
+From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+ 
+Typical Setup ->
+Launch Configuration Wizard (after install) ->
+Standard Configuration ->
+Password1
 </p>
 <br />
 </p>
