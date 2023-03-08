@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This post outlines the steps I took to create and run an open source ticketing system. This section will demonstrate the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This post outlines the steps to create and run an open source ticketing system. This section will demonstrate the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -30,7 +30,7 @@ This post outlines the steps I took to create and run an open source ticketing s
 <img src="https://i.imgur.com/ax6OTTI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I created a virtual machine in Azure running windows 10 with 2-4 Virtual CPUs. I named it VM-osTicket. I created some credentials to allow me to use the virtual machine through Microsoft Remote Desktop. When creating the virtual machine, I allowed it to create a new Virtual Network (Vnet). 
+Create a virtual machine in Azure running windows 10 with 2-4 Virtual CPUs. I named it VM-osTicket. I created some credentials to allow me to use the virtual machine through Microsoft Remote Desktop. When creating the virtual machine, allow it to create a new Virtual Network (Vnet). 
 </p>
 <br />
 
@@ -38,7 +38,7 @@ I created a virtual machine in Azure running windows 10 with 2-4 Virtual CPUs. I
 <img src="https://i.imgur.com/X1JDDyu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once that was created, I logged into the VM in remote desktop using the VM's public IP address and the credentials used when creating the VM in Azure. 
+Once that is created, log into the VM in remote desktop using the VM's public IP address and the credentials used when creating the VM in Azure. 
 </p>
 <br />
 
@@ -46,7 +46,8 @@ Once that was created, I logged into the VM in remote desktop using the VM's pub
 <img src="https://i.imgur.com/2qwhB0C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-IIS (internet information services) is a web server that will allow your computer to serve up websites. Since OsTicket runs out of a website I needed to set up and configure IIS with CGI to run osTicket. CGI needs to be installed with IIS because CGI allows you to install PHPManager, which is a back-end web programming language that osTicket runs off of.
+IIS (internet information services) is a web server that will allow your computer to serve up websites. Since OsTicket runs out of a website IIS needs to be set up and configured with CGI to run osTicket. CGI needs to be installed with IIS because CGI allows you to install PHPManager, which is a back-end web programming language that osTicket runs off of.
+Right click Windows start menu>Run>type "control panel">Programs>Turn Windows features on or off> Internet Information services>World Wide Web Services>Application Development Features>CGI
 </p>
 <br />
 
