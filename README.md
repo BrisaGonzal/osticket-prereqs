@@ -208,7 +208,8 @@ Notice how some extensions are now enabled.
 <img src="https://i.imgur.com/xSKx4Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Rename: ost-config.php
+Next, 
+ Rename: ost-config.php
 From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 </p>
