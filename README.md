@@ -56,7 +56,7 @@ Right click Windows start menu > Run > type "control panel" > Programs > Turn Wi
 <img src="https://i.imgur.com/5pWrqcY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open the Installation Files under "Environments and Technologies Used" header of this post. Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+Open the Installation Files ("Environments and Technologies Used" header of this post) inside the web browser of the virtual machine. Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 </p>
 <br />
 <p>
