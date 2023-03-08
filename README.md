@@ -181,14 +181,6 @@ On the right, click “Browse *:80 (http)”
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/kw5kUgP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
- </p>
-<br />
-</p>
-<br />
-<p>
 <img src="https://i.imgur.com/xffqXpF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
