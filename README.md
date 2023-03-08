@@ -228,12 +228,16 @@ Right click ost-config.php > Properties > Security > Advanced > Disable inherita
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/hlDC5fz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/P5kHsU4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Continue Setting up osTicket in the browser (click Continue)
+Continue Setting up osTicket in the browser (click Continue). Ignore what is marked in red for now.
+ 
 Name Helpdesk
+ 
 Default email (receives email from customers)
+ 
+ Fill in Admin user info and create a password.
 </p>
 <br />
 </p>
