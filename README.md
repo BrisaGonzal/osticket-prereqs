@@ -228,15 +228,6 @@ Right click ost-config,php > Properties > Security > Advanced > Disable inherita
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/ljkXtee.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-edit permisions
-</p>
-<br />
-</p>
-<br />
-<p>
 <img src="blob:https://imgur.com/d26ac64d-6a69-4f5f-a406-0c53ad3f89fa" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
