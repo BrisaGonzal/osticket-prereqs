@@ -237,7 +237,7 @@ Name Helpdesk
  
 Default email (receives email from customers)
  
- Fill in Admin user info and create a password.
+ Fill in Admin user info and create a password. Do not click install yet.
 </p>
 <br />
 </p>
@@ -246,8 +246,10 @@ Default email (receives email from customers)
 <img src="https://i.imgur.com/0MXE6Fy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Download and install Heidi SQL.
-Create a new session by clicking the green "new" button on the bottom left, root/Password1
+From the installation files, download and install Heidi SQL.
+
+ Once it is installed and launched, create a new session by clicking the green "new" button on the bottom left, the username will be: root. Create the password: Password1
+ 
 Connect to the session
 </p>
 <br />
@@ -267,9 +269,13 @@ Right click on "Unnamed" and create a database called “osTicket”
 </p>
 <p>
 Continue Setting up osticket in the browser
+ 
 MySQL Database: osTicket
+ 
 MySQL Username: root
+ 
 MySQL Password: Password1
+ 
 Click “Install Now!”
 </p>
 <br />
@@ -281,7 +287,7 @@ Click “Install Now!”
 <img src="https://i.imgur.com/qdtLhIA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Congratulations, hopefully it is installed with no errors!
+This screen shows that osTicket has installed with no errors. Now, all that has to be done is some installation clean-up.
 </p>
 <br />
 </p>
@@ -292,7 +298,9 @@ Congratulations, hopefully it is installed with no errors!
 <img src="https://i.imgur.com/DiBwyw7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Clena up: delete "setup" folder in C:\inetpub\wwwroot\osTicket\setup
+Clean up: 
+ 
+Delete "setup" folder in C:\inetpub\wwwroot\osTicket\setup
 </p>
 <br />
 </p>
@@ -304,19 +312,8 @@ Clena up: delete "setup" folder in C:\inetpub\wwwroot\osTicket\setup
 </p>
 <p>
 Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-</p>
-<br />
-</p>
-<br />
-</p>
-<br />
-<p>
-<img src="https://i.imgur.com/DiBwyw7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Clena up: delete "setup" folder in C:\inetpub\wwwroot\osTicket\setup
-</p>
-<br />
+ 
+ Right click ost-config.php > Properties > Security > Advanced > Click "Everyone" > Edit > un-check "Full Control", "Modify", and "Write" > OK > Apply > OK > OK
 </p>
 <br />
 </p>
@@ -327,9 +324,11 @@ Clena up: delete "setup" folder in C:\inetpub\wwwroot\osTicket\setup
 <img src="https://i.imgur.com/XUYFuYy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Browse to your help desk login page: http://localhost/osTicket/scp/login.php
+Now you can browse to your help desk login page using this URL: http://localhost/osTicket/scp/login.php
 
- End Users osTicket URL: http://localhost/osTicket/ 
+End Users osTicket URL: http://localhost/osTicket/ (this is where people will submit tickets).
+ 
+Finally, the installation for osTicket has been completed. The next repository will be dedicated to the Post-installation Configuration of osTicket and will pick up where this section ended.
 <br />
 </p>
 <br />
