@@ -175,7 +175,7 @@ On the right, click “Browse *:80 (http)”
 <img src="https://i.imgur.com/pwriF0s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once I saw this screen, I knew osTicket was working. Now I need to enable some things in IIS to make some of those red "X"s work.
+"Browse *80 (http)" will direct you to this webpage. This shows that osTicket is working. Now some things in IIS need to be enabled to make some of those red "X"s work.
 </p>
 <br />
 </p>
